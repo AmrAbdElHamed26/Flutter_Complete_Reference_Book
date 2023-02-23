@@ -51,10 +51,37 @@ setState(() {
 ## Run this command:
 
 
+
 ## With Flutter :
 ``` flutter 
 flutter pub add flutter_bloc
 ```
+
+#### 1.Make A Cubit that extends states , and contain the bussines logic of UI 
+
+![image](https://user-images.githubusercontent.com/86882938/220958722-305c783b-d1e1-4890-98ac-ccc0a35d7ff9.png)
+
+#### 2.Make States For The Cubit 
+![image](https://user-images.githubusercontent.com/86882938/220958921-c2cef81d-8afc-4bb6-999c-5b90849741b5.png)
+
+#### 3.Use BlocProvide And BlocConsumer To Use This Cubit 
+![image](https://user-images.githubusercontent.com/86882938/220959242-55926e90-4575-442e-aed2-cb1d5216536e.png)
+
+
+## <i>Don't forget to emit states to update the UI using :</i>
+
+``` flutter 
+    emit(specificState());
+
+```
+
+
+
+
+
+
+
+## </br></br><b><i><mark>You Can also see States in consloe using Observer Calss to make debugging easy .</b></i></mark></br></br>
 
 # Observer class
 ##  The Observer class is a widget that listens to changes in an Observable, and rebuilds whenever the Observable changes.</br></br>
