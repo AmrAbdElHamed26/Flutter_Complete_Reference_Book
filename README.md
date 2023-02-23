@@ -49,14 +49,10 @@ setState(() {
 # </br></br>You Can Use this package as a library 
 ## Run this command:
 
-With Dart:
-``` dart
-dart pub add bloc
-```
 
 ## With Flutter :
 ``` flutter 
-flutter pub add bloc
+flutter pub add flutter_bloc
 ```
 
 # Observer class
